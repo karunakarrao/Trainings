@@ -1,0 +1,14 @@
+version control:
+
+Infra as a code
+ --> Terraform
+ --> AWS cloudformation
+ --> Azure ARM templates(JSON)
+ 
+ $ terraform validate
+ $ terraform fmt
+ $ terraform plan
+ 
+ $ terraform plan --input=false
+ 
+ git reflog
