@@ -59,15 +59,14 @@ Q. FQDN - Fully Qualified domain name
 Q. why we used different types of load balancer like application vs network load balacer?
 
 Q. different layers of the network ? 
-there are 7 layers 
-
-7 - Application Layer - SMTP, HTTP, FTP, POP3, SNMP
-6 - Presentation Layer - MPEG, ASCH, SSL, TLS
-5 - Session Layer - NetBIOS, SAP
-4 - Transport Layer - TCP, UDP
-3 - Network Layer - IPV5, IPV6, ICMP, IPSEC, ARP, MPLS.
-2 - Data Layer - RAPA, PPP, Frame Relay, ATM, Fiber Cable, etc.
-1 - Physical Layer - RS232, 100BaseTX, ISDN, 11.
+there are 7 layers :
+        7 - Application Layer - SMTP, HTTP, FTP, POP3, SNMP
+        6 - Presentation Layer - MPEG, ASCH, SSL, TLS
+        5 - Session Layer - NetBIOS, SAP
+        4 - Transport Layer - TCP, UDP
+        3 - Network Layer - IPV5, IPV6, ICMP, IPSEC, ARP, MPLS.
+        2 - Data Layer - RAPA, PPP, Frame Relay, ATM, Fiber Cable, etc.
+        1 - Physical Layer - RS232, 100BaseTX, ISDN, 11.
 
 Q. what is CDN (contenet delivery network )?
 this is the front end and used to access th static data like pdf, pictures, videos. this is used for instant access.
@@ -77,3 +76,23 @@ Q. list of http error codes ?
 
 
 
+Q. S3: Simple storage service?
+max buckets:-->  we can create 100 buckets by default.
+service request:--> for more bucket we need to raise a ticket with aws team. 
+max storage:-->  we can store max in 256 tb. 
+website:--> a static website can be hosted on s3
+security:--> bucket policy and 
+
+Q. what is object lock in s3 bucket?
+
+Q. what are the types of storage class do we have in S3 bucket?
+
+Q. how to disable the s3 bucker version?
+we can't disable it but we can suspend the s3 bucket versioning
+
+Q. 
+data at rest: just uploaded the data to s3 no actions done.
+data in transit: s3 bucket data link is given to the users is called data in transit.
+
+Q. 
+CEO, CTO, CSO
