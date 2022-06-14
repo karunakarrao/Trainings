@@ -12,3 +12,31 @@ Infra as a code
  $ terraform plan --input=false
  
  git reflog
+
+---------------------------------------------
+Teraform:
+---------------------------------------------
+IaaC
+---------
+AWS cloudformation templates
+Azure resource manager templates
+GCP deployment manager using yaml
+
+Advantages of using teraform:
+1. can be used to multiple providers like AWS, Azure, GCP, K8s, VMWare
+2. understanding the code is relativly easy when cmpare to yaml /json
+3. dry run is very good terraform plan
+4. using modules for repeated infra
+5. 
+
+firewall.cpl
+
+$ terraform state list --> to list the sate
+$ terraform fmt
+$ terraform validate
+$ terraform plan
+$ terraform apply
+$ terraform destroy
+
+$ terraform state rm aws-s3 -->
+$ terraform state mv < resourcename> <resourcename> -->
