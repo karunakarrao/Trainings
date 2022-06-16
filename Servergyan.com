@@ -96,3 +96,40 @@ data in transit: s3 bucket data link is given to the users is called data in tra
 
 Q. 
 CEO, CTO, CSO
+
+Linux - User :
+------------------------------------------------------
+$ rpm -qf /etc/passwd
+$grep -ril likendra /etc/
+$userdel -r lokendra 
+
+$grep -ril lokendra /etc/
+
+$rm -rf /etc/apsswd --> deleted and restore as belwo
+
+$ cp /etc/passwd- /etc/passwd --> restore from backup 
+
+$ /etc/default/useradd
+$ touch {1..10}.sh
+$ rm -rf {1..10}.sh
+$ usermod -G hr loki
+$ usermod -aG sales /etc/
+
+how many types of files are there in linux OS?
+$ ll /dev
+7 types of files
+-regular file
+D- directory
+l --> link file
+B --> block file
+C - char file
+P - pipe
+S - socket
+
+$ /etc/login.def --> user creation using a file 
+
+
+Services
+start boot scripts
+
+
