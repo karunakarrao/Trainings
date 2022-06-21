@@ -133,3 +133,9 @@ Services
 start boot scripts
 
 
+Jenkins:
+-------------
+
+types of jobs created in jenkins
+
+
