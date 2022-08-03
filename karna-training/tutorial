@@ -1,0 +1,44 @@
+Ansible:
+--------------------
+what is ansible ? 
+ansible limitations ?
+ansible advantage/disadvantage ?
+ansible architeture? why ansible is agent less ?
+ansible master/slave pre-requisites ?
+ansible installtions and steps ?
+ansible connectivity setup between master and slave ?
+whys of establishing the connection between master and slave ?
+password base authentication ?
+ssh based authentication ?
+pem based authentication ?
+ansible playbook for establish the athentication ?
+ansible installtion components and structure ?
+ansible config file like ansible.cfg,hosts,modules,plug-ints,docs,etc ?
+ansible.cfg file important keywords to remember ? 
+ansible binary comes with installation list ?
+ansible ?
+ansible-doc ?
+ansible-playbook ?
+ansible-galaxy ?
+ansible-vault ?
+ansible-config ?
+ansible ad-hoc commands and examples ?
+ansible privilaged user options ? 
+how to exicute ansible playbooks using privilaged users ? 
+ansible-playbooks and how to write playbooks and examples ?
+ansible command options ( -m -a -e -s -C -i --become --check --syntax-check --step -K )?
+writting ansible YAML files? and its structure?
+ansible list of important modules - ( ping, command, setup, shell, script, copy, file, find) ?
+ansible (lineinfile, get-url, url, yum, service, service_facts, user, group, reboot, debig, cron, firewalld) ?
+ansible include, include_vars, include_tasks, include_role ?
+use of ansible custom facts? 
+why creating ansible custom facts in remote servers ?
+define variable in the ansible ?
+how many ways variables are defined in the ansible ?
+how to include variables in ansible-playbooks ?
+how to register ouput of a task and print output using debug ?
+
+
+
+
+
